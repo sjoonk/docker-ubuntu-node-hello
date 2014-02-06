@@ -1,0 +1,11 @@
+{
+  "name": "docker-ubuntu-node-hello",
+  "version": "0.0.1",
+  "description": "Node.js Hello World app on Ubuntu using docker",
+  "main": "index.js",
+  "author": "Sukjoon Kim <sjoonk@usefulparadigm.com>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "*"
+  }
+}
