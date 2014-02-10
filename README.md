@@ -1,17 +1,16 @@
 docker-ubuntu-node-hello
 =====
 
-A boilerplate for docker based nodejs app
+A docker based nodejs app demo
 
 Basic Usage:
 -----
 
     $ git clone
     $ vagrant up
-    $ vagrant ssh
-    $ cd /vagrant
+    $ docker version
     $ docker build -t ubuntu-node-hello .
-    $ docker run -p 49160:8080 -d ubuntu-node-hello
-    $ curl -i localhost:49160
+    $ docker run -p 8080:8080 -d ubuntu-node-hello
+    $ curl -i localhost:8080
 
 Have fun!
